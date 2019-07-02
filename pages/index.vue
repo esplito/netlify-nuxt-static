@@ -3,7 +3,7 @@
     <h2>This is a homepage</h2>
     <div class="posts">
 
-      <h3>Latest from UPS</h3>
+      <h3>Latest from UPS WP</h3>
       <div class="post" v-for="post in posts" :key="post.id">
         <h4>{{ post.title.rendered }}</h4>
         <div class="post-content" v-html="post.excerpt.rendered"></div>
